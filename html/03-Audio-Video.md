@@ -3,6 +3,7 @@
 <p>The controls attribute enables users to manage audio playback, including pausing or resuming playback. </p>
 <br>
 <hr>
+
 <!--Loop-->
 <audio
   src="https://cdn.freecodecamp.org/curriculum/js-music-player/can't-stay-down.mp3"
@@ -11,6 +12,7 @@
 ></audio>
 <br>
 <hr>
+
 <!--Muted-->
 <audio
   src="https://cdn.freecodecamp.org/curriculum/js-music-player/can't-stay-down.mp3"
@@ -20,6 +22,7 @@
 ></audio>
 <br>
 <hr>
+
 <audio controls>
   <source src="audio.ogg" type="audio/ogg" />
   <source src="audio.wav" type="audio/wav" />
@@ -28,6 +31,7 @@
 <p>The browser will first start with the ogg type, and if it can't play the audio, then it'll move down to the next type in the list.</p>
 <br>
 <hr>
+
 <!--Video Element-->
 <video
   src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
@@ -38,6 +42,7 @@
 ></video>
 <br>
 <hr>
+
 <!--Poster Attribute-->
 <video
   src="https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
@@ -48,3 +53,17 @@
   width="400"
 ></video>
 
+<!-- Optimize Media Assets-->
+Three tools to consider when using media, such as images, on your web pages:
+
+1. The size -> 
+A smaller resolution results in a smaller file size.
+Your images should be the same scale as the rendered size on the page.
+
+2. The format ->
+Two of the most common file formats are PNG and JPG, but these are no longer the most ideal formats for serving images.
+you should consider using a more optimized format, like WEBP or AVIF.
+
+3. The compression ->
+Tools like pngcrush work well for lossless formats like PNG, which can be compressed without any quality loss since the original data can be perfectly reconstructed. 
+ JPG, for example, uses lossy compression — each time a JPG is re-saved or re-compressed, some image data is permanently discarded, resulting in degraded quality. 
