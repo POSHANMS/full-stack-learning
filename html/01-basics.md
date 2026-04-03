@@ -41,8 +41,3 @@
 <br> Essentially, all text on a web page is a sequence of characters stored as one or more bytes.
 <br>the meta element with the charset attribute to set the character encoding to UTF-8:
 <br>&lt;meta charset="UTF-8" &gt;
-
-
-
-
-

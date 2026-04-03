@@ -60,4 +60,3 @@
 &lt;script src="path-to-javascript-file.js"></script&gt;>
 <br>
 <p>The src attribute is used here to specify the location for that external JavaScript file. src stands for "source". The reason why it is not encouraged to place all of your JavaScript inside the HTML document is because of separation of concerns. </p>
-
