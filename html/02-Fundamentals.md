@@ -60,3 +60,18 @@
 &lt;script src="path-to-javascript-file.js"></script&gt;>
 <br>
 <p>The src attribute is used here to specify the location for that external JavaScript file. src stands for "source". The reason why it is not encouraged to place all of your JavaScript inside the HTML document is because of separation of concerns. </p>
+
+<!--Ordered lists--!>
+Ordered lists in HTML are used to display a series of items in a specific order. Each item in the list is typically numbered, allowing readers to easily follow a sequence or ranking. The <ol> tag is used to create an ordered list, and each list item is defined using the <li> tag.
+
+<!--Unordered Lists--!>
+Unordered lists present items in a bulleted format, where the order of the items is not significant. They are used to group related content together without implying any specific sequence or priority. Each item in the list is typically marked with a bullet point, making it easy to visually distinguish and scan the list's contents.
+
+<!--Definition Lists--!>
+Definition lists in HTML are used to present terms and their corresponding definitions. They are structured using three main elements: <dl> (definition list), <dt> (definition term), and <dd> (definition description). The <dl> element acts as the container for the entire list, while each term is marked with <dt> and its associated description is enclosed within <dd>. This structure allows for a clear and organized presentation of terms and their meanings.
+
+<!--Nested Lists in HTML--!>
+Nested lists in HTML allow you to create lists within lists, forming a hierarchical structure. This is achieved by placing one list (either ordered <ol> or unordered <ul>) inside a list item <li> of another list. This creates a sub-list that is visually indented, helping to organize information into related categories and subcategories.
+
+<!--Priority Hints--!>
+Priority Hints in HTML allow developers to indicate the relative priority of fetching resources like images. This helps the browser decide which images to load first, potentially improving page load times and user experience by prioritizing content that is immediately visible or more important to the user. This is achieved using the fetchpriority attribute.
