@@ -107,3 +107,41 @@ Another type of form state is the readonly state. This is when a form control, l
   id="email"
   value="example@email.com"
 />
+
+Table
+HTML tables aren't used as much these days as they used to be. But, as a front-end developer, you should still be familiar with them. Tables are one of the earliest ways devs had for displaying data in a browser way back in the 1990s.
+
+There's a main table element with an id set to quickfacts
+
+Inside it, the table has a table head element, thead, table body element, tbody, and a table foot element, tfoot.
+
+The table head, body, and foot elements can each contain some number of table rows, tr. And each table row can contain a table header th which labels the data in that row. It can also contain some number of individual data cells, called table data, td.
+
+<table>
+  <thead>
+    <tr>
+      <th>The title of this table</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>First Row</th>
+      <td>
+        First Data Cell
+      </td>
+    </tr>
+    <tr>
+      <th>Second Row</th>
+      <td>
+        Second Data Cell
+      </td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>The footer of this table, which might contain date of publication, author credits, or other meta information.</th>
+    </tr>
+  </tfoot>
+</table>
+
+Nowadays, developers use CSS flexbox and grid to layout their designs.
