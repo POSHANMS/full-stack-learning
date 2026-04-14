@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Checkout Page</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Checkout</h1>
+    </header>
+
+    <main id="main-content">
+      <!-- Cart Section -->
+      <section aria-labelledby="cart-heading">
+        <h2 id="cart-heading">Your Cart</h2>
+
+        <article>
+          <figure>
+            <img
+              src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg"
+              alt="Colorful Rubik's Cube puzzle toy"
+            />
+            <figcaption>Rubik's Cube</figcaption>
+          </figure>
+
+          <p><strong>Product:</strong> Rubik's Cube</p>
+          <p><strong>Price:</strong> $29.99</p>
+        </article>
+      </section>
+
+      <!-- Payment Section -->
+      <section aria-labelledby="payment-heading">
+        <h2 id="payment-heading">Payment Information</h2>
+
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Card Details</legend>
+
+            <!-- Card Name -->
+            <label for="card-name">
+              Cardholder Name
+              <span aria-hidden="true">*</span>
+            </label>
+            <input
+              id="card-name"
+              name="card-name"
+              type="text"
+              required
+              aria-required="true"
+              autocomplete="cc-name"
+            />
+
+            <!-- Card Number -->
+            <label for="card-number">
+              Card Number
+              <span aria-hidden="true">*</span>
+            </label>
+            <input
+              id="card-number"
+              name="card-number"
+              type="text"
+              inputmode="numeric"
+              pattern="[0-9]{16}"
+              placeholder="1234567812345678"
+              required
+              aria-required="true"
+              aria-describedby="card-number-help"
+              autocomplete="cc-number"
+            />
+            <p id="card-number-help">
+              Enter a 16-digit card number without spaces or dashes.
+            </p>
+
+            <!-- Expiry Date -->
+            <label for="expiry-date">
+              Expiry Date (MM/YY)
+              <span aria-hidden="true">*</span>
+            </label>
+            <input
+              id="expiry-date"
+              name="expiry-date"
+              type="text"
+              inputmode="numeric"
+              placeholder="MM/YY"
+              pattern="(0[1-9]|1[0-2])\/[0-9]{2}"
+              required
+              aria-required="true"
+              autocomplete="cc-exp"
+            />
+
+            <!-- CVV -->
+            <label for="cvv">
+              CVV
+              <span aria-hidden="true">*</span>
+            </label>
+            <input
+              id="cvv"
+              name="cvv"
+              type="password"
+              inputmode="numeric"
+              pattern="[0-9]{3,4}"
+              required
+              aria-required="true"
+              autocomplete="cc-csc"
+            />
+          </fieldset>
+
+          <!-- Submit -->
+          <button type="submit">Place Order</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Checkout Demo</p>
+      <address>
+        Contact: <a href="mailto:support@example.com">support@example.com</a>
+      </address>
+    </footer>
+  </body>
+</html>
