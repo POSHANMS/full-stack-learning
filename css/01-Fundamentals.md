@@ -1,0 +1,50 @@
+#### 🔹 CSS
+
+## CSS - which stands for Cascading Style Sheets
+
+It's a markup language used to apply styles for HTML. In simpler terms, if HTML is the structure of a web page, CSS is what makes it look good.
+
+In the world of web development, CSS plays a vital role in creating visually appealing, responsive, and user-friendly websites.
+
+It allows developers to transform simple HTML documents into engaging web experiences that capture users' attention and enhance their interaction with web content.
+
+## Basic Anatomy of a CSS Rule
+
+All of these styles are made up of various CSS rules.
+
+A CSS rule is made up of two main parts: a selector and a declaration block.
+
+'''
+selector {
+property: value;
+}
+'''
+A selector is a pattern used in CSS to identify and target specific HTML elements for styling.
+
+Examples of selectors include type selectors, class selectors, and ID selectors.
+
+The curly braces provided in the basic syntax are known as a declaration block. A declaration block applies a set of styles for a given selector, or selectors.
+
+Inside the declaration block, you will have a series of declarations. Each declaration consists of a property and a value.
+
+The property is the CSS identifier that specifies which feature is being styled. An example of a property would be the background-color property.
+
+The value would be the specific setting applied to that property. For example, if the property is background-color, a value could be purple, which sets the background color to purple.
+
+After each property name, you need to place a colon, and after each value, you should have a semicolon.
+
+## Meta Viewport Element Used For?
+
+The meta viewport element is a crucial component in responsive web design.
+
+It's a special HTML meta element that gives the browser instructions on how to control the page's dimensions and scaling on different devices, particularly on mobile phones and tablets.
+
+'''
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+'''
+The width=device-width part tells the browser to set the width of the page to match the screen width of the device. This is essential for creating responsive layouts that adapt to different screen sizes.
+
+The initial-scale=1.0 sets the initial zoom level when the page is first loaded. A value of 1.0 means that the page is displayed at 100% zoom, without any scaling.
+
+By using the meta viewport element, you're ensuring that your web pages are displayed properly on mobile devices.
