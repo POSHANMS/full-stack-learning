@@ -43,8 +43,37 @@ It's a special HTML meta element that gives the browser instructions on how to c
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 '''
+
 The width=device-width part tells the browser to set the width of the page to match the screen width of the device. This is essential for creating responsive layouts that adapt to different screen sizes.
 
 The initial-scale=1.0 sets the initial zoom level when the page is first loaded. A value of 1.0 means that the page is displayed at 100% zoom, without any scaling.
 
 By using the meta viewport element, you're ensuring that your web pages are displayed properly on mobile devices.
+
+## Inline, Internal, and External CSS
+
+# Inline CSS
+
+Inline CSS is written directly within an HTML element using the style attribute. It applies styles to a specific element.
+
+Inline CSS is generally used for quick, one-off styles or to override other styles for a specific element.
+
+# Internal CSS
+
+Internal CSS is written within the style tags inside the head section of an HTML document. It applies styles to the entire page and is useful when you need to style a single document.
+
+Internal CSS is best used when you need to apply styles to a specific page rather than across multiple pages. It’s useful for single-page websites or when the styles don’t need to be reused elsewhere.
+
+# External CSS
+
+External CSS is written in a separate .css file and linked to the HTML document using the link element in the head section.
+
+## How Do Width and Height Work?
+
+width and height properties are used to control the dimensions of elements on a webpage.
+
+These properties can be defined in different units such as pixels (px), percentages (%), viewport units (vw, vh), and more.
+
+The width property specifies the width of an element. If you do not specify a width, then the default is set to auto. This lets the browser determine the element's width based on its content, parent, and display type. For a div element, width: auto makes it expand to fill the full width of its parent container.
+
+The height property specifies the height of an element. Similarly, the height is auto by default, which means it will adjust to the content inside.
