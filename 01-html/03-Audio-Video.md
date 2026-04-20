@@ -82,7 +82,7 @@ Three tools to consider when using media, such as images, on your web pages:
    Tools like pngcrush work well for lossless formats like PNG, which can be compressed without any quality loss since the original data can be perfectly reconstructed.
    JPG, for example, uses lossy compression — each time a JPG is re-saved or re-compressed, some image data is permanently discarded, resulting in degraded quality.
 
- <!--Different Types of Images Licenses--!>
+ <!--Different Types of Images Licenses-->
 
 Images are considered intellectual property, this means that they are protected by copyright regulations
 This means that you cannot use them in your web page unless you do one of three things: obtain written permission from the copyright holder, purchase a license from the copyright holder, or incorporate the image in a way that falls under fair use.
@@ -91,11 +91,12 @@ That third point is a bit tricky. Fair use requires that your use of the image i
 
 Most search engines will allow you to filter image results by a license. There are also sites like Pixabay and Unsplash, which offer free-to-use images.
 
-<!--SVGs--!>
+<!--SVGs-->
+
 PNG and JPG are classified as raster formats. This essentially means that they are pixel-based, with the data tracking the color value in each pixel.
 
 SVG stands for a scalable vector graphic
-A vector graphic tracks data based on paths and equations to plot points, lines, and curves. 
+A vector graphic tracks data based on paths and equations to plot points, lines, and curves.
 SVG can be scaled to any size without impacting the quality.
 
 SVGs specifically have the added benefit of storing data in XML. This means you can use them directly in your code as raw HTML with the svg element. It also means you can programmatically change the color of the image.

@@ -43,7 +43,7 @@
 <p>These types of character references are known as named character references.</p>
 <p>Named references start with an ampersand sign (&) and end with a semicolon (;). By using a named character reference, the HTML parser will not confuse this with an actual HTML element.</p>
 <p>Another type of character reference would be the decimal numeric reference. This character reference starts with an ampersand sign and hash symbol (#), followed by one or more decimal digits, followed by a semicolon.</p>
-&#60; <!--For -->
+&#60; <!--For < -->
 &#169;
 &#174;
 <p>hexadecimal numeric reference character reference starts with an ampersand sign, hash symbol, and the letter x. Then it is followed by one or more ASCII hex digits and ends with a semicolon. </p>
