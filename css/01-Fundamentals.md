@@ -91,3 +91,7 @@ min-width or min-height are larger than the width or height, they will override 
 The max-width specifies the maximum width an element can grow to, even if there is enough space for it to be wider.
 
 The max-height specifies the maximum height an element can grow to, regardless of the content size.
+
+when max-width or max-height are smaller than width or height, they take precedence. This is important for controlling the maximum size of elements in your layouts.
+
+CSS prioritizes min-width and min-height over width and height. max-width and max-height restrict dimensions if values exceed their limits.
