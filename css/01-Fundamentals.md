@@ -95,3 +95,15 @@ The max-height specifies the maximum height an element can grow to, regardless o
 when max-width or max-height are smaller than width or height, they take precedence. This is important for controlling the maximum size of elements in your layouts.
 
 CSS prioritizes min-width and min-height over width and height. max-width and max-height restrict dimensions if values exceed their limits.
+
+## Different Types of CSS Combinators
+
+CSS combinators are used to define the relationship between selectors in CSS. They help in selecting elements based on their relationship to other elements, which allows for more precise and efficient styling.
+
+# Descendant Combinator:
+
+This combinator is used to target elements that are descendants of a specified parent element.
+
+# Child Combinator (>):
+
+This combinator is used to select elements that are direct children of a specified parent element.
